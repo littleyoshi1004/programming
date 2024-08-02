@@ -1,0 +1,9 @@
+#clock{
+    font-size: 24px;
+    font-family: "Arial", sans-serif;
+    color: powderblue;
+    border: 10px solid #9ac5f4;
+    border-radius: 5%;
+    margin: 5px;
+    text-align: center;
+}
