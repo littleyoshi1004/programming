@@ -1,7 +1,7 @@
 function addComment(){
-    var comment = document.getElementById("comment").ariaValueMax;
+    var comment = document.getElementById("comment").value;
     var commentList = document.getElementById("commentList");
-    var newComment = document.getElementById("p");
+    var newComment = document.createElement("p");
     newComment.innerHTML = comment;
     commentList.innerHTML = "";
     commentList.appendChild(newComment);
@@ -9,6 +9,6 @@ function addComment(){
 }
 
 function clearComment(){
-    var commentList = document.getElementById("commentLsit");
+    var commentList = document.getElementById("commentList");
     commentList.innerHTML = "";
 }
