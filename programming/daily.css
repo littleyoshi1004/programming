@@ -1,0 +1,25 @@
+#calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 10px;
+    font-weight: 600;
+}
+.day{
+    padding: 10px;
+    border: 3px solid powderblue;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+}
+.sunday{
+    color: red;
+}
+.saturday{
+    color: blue;
+}
+.day:hover{
+    background-color: powderblue;
+}

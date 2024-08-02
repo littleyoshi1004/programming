@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+#pic{
+    border-radius: 75px;
+    border: 1 px solid #000;
+    position: relative;
+    left: 20px;
+}
+body{
+    background-color: #a3a3a3;
+    background-image: url("./photo.png");
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.bookcover{
+    background-color: powderblue;
+    width: 1000px;
+    height: 700px;
+    top: 10%;
+    margin: auto auto;
+    position: relative;
+    border-radius: 10px;
+}
+.bookdot{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 980px;
+    height: 680px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 10px;
+}
+.page{
+    background-color: whitesmoke;
+    width: 960px;
+    height: 650px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    border-radius: 15px;
+    display: flex;
+}
+.box {
+    background-color: white;
+    flex: 2;
+    border: 1px solid powderblue;
+}
+p {
+    font-family: "Note Sans KR", sans-serif;
+    text-align: center;
+}
+.lc{
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    margin-right: 22px;
+}
+.lb{
+    background-color: white;
+    bottom: 1px solid rgb(173, 169, 169);
+    width: 195px;
+    height: 600px;
+    margin: 15px;
+}
+
+.lt{
+    position: relative;
+    top: 7px;
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.mc {
+    display: flex;
+    flex: 1px;
+    flex-direction: column;
+}
+.mt{
+    font-family: "Noto Sans KR", sans-serif;
+    display: flex;
+    padding: 10px;
+    margin: 7px;
+}
+.mbox{
+    overflow: auto;
+    background: white;
+    bottom: 1px solid rgb(173, 169, 169);
+    border-radius: 10px;
+    width: 550px;
+    height: 580px;
+}
+.intro{
+    font-family: "Noto Sans KR", sans-serif;
+    flex: 1px;
+    font-weight: 800;
+}
+.url{
+    font-family: "Noto Sans KR", sans-serif;
+    position: relative;
+    left: 10px;
+    font-style: 20px;
+    color: powderblue;
+}
+.rbox{
+    display: flex;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: powderblue;
+    font: bolder;
+    font-size: 20px;
+    border-bottom: solid 1px black;
+    padding: 5px;
+}
+.mt-memo{
+    font-family: "Noto Sans KR", sans-serif;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: powderblue;
+    font: bolder;
+    font-size: 20px;
+    border-bottom: solid 1px black;
+    padding: 5px;
+}
+.calender{
+    border: 3px solid powderblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex: 1px;
+    margin: 20px 20px 0px 20px;
+    font-family: "NeoDunggeumo", sans-serif;
+    padding: 5px;
+    font-weight: bolder;
+}
+.first_menu{
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: powderblue;
+    height: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    width: 7%;
+    left: 82.6%;
+    top: 20px;
+    font-weight: 800;
+}
+.second_menu{
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: powderblue;
+    height: 25px;
+    border-top-right-radius: 10px;
+    position: relative;
+    width: 7%;
+    left: 82.6%;
+    top: 20px;
+    font-weight: 800;
+}
+.third_menu{
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: powderblue;
+    height: 25px;
+    border-top-right-radius: 10px;
+    position: relative;
+    width: 7%;
+    left: 82.6%;
+    top: 20px;
+    font-weight: 800;
+}
+.fourth_menu{
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: powderblue;
+    height: 25px;
+    border-top-right-radius: 10px;
+    position: relative;
+    width: 7%;
+    left: 82.6%;
+    top: 20px;
+    font-weight: 800;
+}
+.mainday{
+    flex: 0.1;
+    color: rgb(78, 78, 78);
+    margin: 8px 5px 8px 10px;
+}
+.saturday{
+    color: blue;
+}
+.sunday{
+    color: red;
+}
+#news{
+    font-family: "Noto Sans KR", sans-serif;
+    position: relative;
+    left: 10px;
+    font-size: 30px;
+    color: powderblue;
+}
+.button{
+    background-color: powderblue;
+    color: black;
+    border: 2;
+    margin: 30px 0px 30px 150px;
+}
+.button:hover{
+    transition: 800ms ease all;
+    color: black;
+    border: 2px;
+    margin: 30px 0px 30px 150px;
+}
+.left_update_1, .left_update_2, .left_update_3, .left_update_4{
+    flex: 1;
+    font-size: 15px;
+}
+.org{
+    color: black;
+    background-color: powderblue;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+.pado{
+    margin-top: 10px;
+}

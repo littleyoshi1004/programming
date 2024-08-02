@@ -1,0 +1,86 @@
+<!-- gallery.html-->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>웹 만들기</title>
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="home_time.css">
+    <link rel="stylesheet" href="guestbook.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="bookcover">
+      <main class="bookdot">
+        <nav class="page">
+          <div class="lc">
+            <div class="dataTimeDisplay"></div>
+            <div class="lb">
+              <div>
+                <h3><div id ="clock"></div></h3>
+                <br>
+                <img src="./cat.jpg" alt="자기 사진" width = "150" id ="pic">
+                <p class="record">
+                  <br><i class="fas fa-light fa-phone"></i> 010-5031-0626
+                  <br>MBTI : ISTJ
+                  <br><i class="fas fa-solid fa-cake-candles"></i> 2007.06.26
+                  <br><i class="fa-solid fa-life-ring"></i> 뭐든지 열심히 함
+                  <br><i class="fa-solid fa-bed"></i> 00 : 00 ~ 07: 00
+                  <br><i class="fa-solid fa-envelope"></i>chamin740405@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mc">
+            <div class="mt">
+              <div class="intro">__SOUN__</div>
+              <div class="url"><a href = "https://www.naver.com" target = "_blink">Naver</a></div>
+              <div class="url"><a href = " " target="_blank">Github</a></div>
+            </div>
+            <div class="mbox">
+                <!--달력-->
+            <div class="calender">
+                <div class="mainday">07.29<br>MON</div>
+                <div class="sunday">1 2 3</div>
+                <div class="saturday">4</div>
+                <div class="sunday">5</div> 6 7 8 9 10
+                <div class="saturday">11</div>
+                <div class="sunday">12</div>
+                13 14 15 16 17
+                <div class="saturday">18</div>
+                <div class="sunday">19</div> 20 21 22 23 24
+                <div class="saturday">25</div>
+                <div class="sunday">26</div> 27 28 29 30
+            </div>
+          <span id = "news"><strong>업데이트 소식</strong></span>
+          <br><br><div class = "mt-memo"><strong>Miniroom</strong>
+        </div>
+        <section id = "guestbook">
+            <h1>방명록</h1>
+            <form onsubmit="addComment();return flase">
+                <textarea id="Comment" placeholder="방명록을 작성해주세요."></textarea><br>
+                <button type="submit">작성 완료</button>
+                <button type="submit">지우기</button>
+            </form>
+            <div id="commentList"></div>
+        </section>
+
+       </div>
+      </nav>
+      <nav class="rbox">
+        <div class="first_menu"><a href="index.html">홈</a></div>
+        <div class="second_menu"><a href="daily.html">다이어리</a></div>
+        <div class="third_menu"><a href="gallery.html">사진첩</a></div>
+        <div class="fourth_menu"><a href="guestbook.html">방명록</a></div>
+      </nav>
+      </main>
+      </header>
+</div>
+    <script src="home_time_text.js"></script>
+    <script src="home_time.js"></script>
+    <script src="guestbook.js"></script>
+</body>
+</html>

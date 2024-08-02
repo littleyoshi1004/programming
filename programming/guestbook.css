@@ -1,0 +1,14 @@
+#guestbook{
+    text-align: center;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
+h1{
+    color: powderblue;
+}
+button{
+    position: relative;
+    right: 70px;
+}
